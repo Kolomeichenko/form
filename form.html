@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registration
+    </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home
+
+                </a>
+            </li>
+            <li>
+                <a class="active" href="form.html">
+                    Registration
+                </a>
+            </li>
+
+
+        </ul>
+    </header>
+    <form action="https://google.com"
+     method="POST"
+     enctype="multipart/form-data"
+     >
+        <div class="row">
+            <label for="user">Name</label>
+            <input id="user"
+             type="text"
+              placeholder="Enter Name"
+                name="user"
+            />
+        </div>
+        <div class="row">
+            <label for="user-email">Emeil</label>
+            <input id="user-email" type="Email" placeholder="Enter Email"
+            name="email"
+            />
+        </div>
+        <div class="row">
+            <label for="user-pass">Password</label>
+            <input id="user-pass" placeholder="Enter Password" type="Password"
+            name="password"
+            />
+
+        </div>
+        <div class=" radio">
+            <label>
+                Male
+                <input name="sex" type="radio" />
+            </label>
+            <label>
+                Female
+                <input name="sex" type="radio" />
+            </label>
+            <label>
+                Hidden
+                <input name="sex" type="radio" />
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                Subscribe mail
+                <input type="checkbox"
+                name="mail"
+                value="1"
+                />
+            </label>
+        </div>
+                <div>
+                <label>
+                    Load file
+                    <input type="file"
+                    name="userfile"
+
+                    />
+                </label>
+            </div>
+        </div>
+        <div>
+        <button>
+            Otpravka
+        </button>
+        </div>
+ </form>
+
+
+</body>
+
+</html>

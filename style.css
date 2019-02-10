@@ -1,0 +1,113 @@
+table{ 
+    margin: 50px auto 0 auto;
+}
+table {
+    border-collapse: collapse;
+
+}
+table th, table td {
+    border: 10px solid #ddd;
+    padding: 20px;
+    text-align:center
+}
+
+table tbody tr:last-child{
+    background: red
+
+}
+table tr {
+    background: yellow
+}
+table tbody tr:first-child{
+    background: green
+}
+table tbody tr:nth-child(n+2) {
+    background: purple
+}
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+header {
+    background:black;
+}
+header ul {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+   padding: 15px;
+   display: block;
+   color:red;
+   text-decoration: none; 
+   font-size: 22px;
+}
+header ul li a:hover, .active{
+    background: purple;
+}
+form {
+margin: 50px auto;
+max-width: 400px;
+min-height: 300px;
+box-shadow: 0 0 4px 2px black;
+background-color: white;
+padding: 15px;
+
+}
+form .row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+form .row label {
+    width: 40%;
+    font-size: 18px;
+}
+form .row input {
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+form .radio {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+form .radio label{
+    display: flex;
+    align-items: center;
+}
+form .radio input {
+    height: 16px;
+    width: 16px;    
+
+
+}
+form .checkbox {
+    margin: 15px 0;
+
+}
+form .checkbox label{
+    display: flex;
+    align-items: center;
+
+}
+form .checkbox input {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
