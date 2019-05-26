@@ -1,0 +1,19 @@
+.sidebar {
+    background-image: linear-gradient(to right, lightgreen, darkgreen);
+    padding: 20px;
+
+}
+.sidebar strong {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: gold;
+    text-shadow: 0 0 3px gold;
+
+}
+.sidebar li {
+    background-color: #ffffff ;
+    padding: 8px 25px;
+    margin-bottom: 8px;
+    box-shadow: 0 3px 5px #111111;
+}

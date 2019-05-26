@@ -1,0 +1,9 @@
+.footer {
+    background-image: linear-gradient(to top, red, darkred);
+    padding: 20px;
+}
+
+.footer h2 {
+    color: white;
+    text-shadow: 0 0 5px #ffffff;
+}

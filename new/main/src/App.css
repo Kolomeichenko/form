@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+
+}
+
+.main .sidebar {
+  flex-basis: 25%;
+}
+
+.main .content {
+  flex-basis: 75%;
+}
